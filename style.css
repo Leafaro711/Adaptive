@@ -41,7 +41,190 @@ table {
     border-spacing: 0;
 }
 
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('HelveticaNeueBoldCondensed.eot');
+    src: local('Helvetica Neue Condensed Bold'), local('HelveticaNeueBoldCondensed'),
+        url('HelveticaNeueBoldCondensed.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNeueBoldCondensed.woff2') format('woff2'),
+        url('HelveticaNeueBoldCondensed.woff') format('woff'),
+        url('HelveticaNeueBoldCondensed.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue';
+    src: url('HelveticaNeueBlackCondensed.eot');
+    src: local('Helvetica Neue Condensed Black'), local('HelveticaNeueBlackCondensed'),
+        url('HelveticaNeueBlackCondensed.eot?#iefix') format('embedded-opentype'),
+        url('HelveticaNeueBlackCondensed.woff2') format('woff2'),
+        url('HelveticaNeueBlackCondensed.woff') format('woff'),
+        url('HelveticaNeueBlackCondensed.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+*, :after, :before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body{
+    height: 100%;
+    margin: 0;
+    background-color: #fff;
+    color: rgba(0,0,0,.87);
+    font-family: 'Helvetica Neue',Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 1.5;
+    letter-spacing: -.01em;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "calt";
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    box-shadow: 1px 1px 1px #888888;
+}
+
+nav{
+    
+}
+
+.nav__wrapper{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 12%;
+}
+
+.logo-icon{
+    width: 51px;
+    height: 51px;
+}
+
+.location-icon{
+    width: 32px;
+    height: 32px;
+}
+
+.location{
+    text-decoration: none!important;
+    font-weight: 600!important;
+    margin-right: 4rem!important;
+    color: currentColor;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.location:hover, .location:focus, .location:active{
+    color: #00a862;
+}
+
+.header__logo, .header__button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+a{
+    text-decoration: none;
+    color: currentColor;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-list{
+    padding-left: 20px;
+}
+
+.nav-list:first-child{
+    padding-left: 40px;
+}
+
+.nav-list:hover, .nav-list:focus{
+    color: #00a862;
+}
+
+.button__sign-in{
+    display: inline-block;
+    background: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 7px 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    margin-right: 16px;
+}
+
+.button__join-now{
+    background-color: #000;
+    border-color: #000;
+    color: white;
+    display: inline-block;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 50px;
+    padding: 7px 16px;
+    font-weight: 600;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+}
+
+.btn:hover, .btn:focus, btn:active{
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.main__wrapper{
+    padding: 0 12%;
+}
+
+
+
+
+
+
+
+
 .summer{
-    max-width: 100px;
-    max-height: 100px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    background: #0a3627;
+}
+
+p{
+    width: 50%;
+    font-weight: 400;
+    text-align: center!important;
+    color: white;
+    font-size: 24px;
+}
+
+.summer-pic{
+    width: 50%;
 }
