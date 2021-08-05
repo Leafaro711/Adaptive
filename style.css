@@ -233,7 +233,7 @@ p{
     text-decoration: none;
 }
 
-.summer, .donate{
+.summer, .donate, .chill{
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -255,11 +255,11 @@ p{
     padding-right: 108px;
     padding-left: 108px;
     font-size: 24px;
-font-weight: 400;
-letter-spacing: -0.16px;
-line-height: 36px;
-max-width: 1107.69px;
-text-align: center
+    font-weight: 400;
+    letter-spacing: -0.16px;
+    line-height: 36px;
+    max-width: 1107.69px;
+    text-align: center
 }
 
 .play-now{
@@ -322,6 +322,32 @@ h3{
     margin-top: 3.2rem !important;
     color: white;
 }
+
+.chill__info{
+    width: 50%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
     width: 100%;
@@ -388,6 +414,12 @@ footer{
 .sl-icon{
     width: 30px;
     height: 30px;
+}
+
+.sl-icon:hover, .sl-icon:focus{
+    opacity: 0.7;
+    cursor: pointer;
+    
 }
 
 .license{
