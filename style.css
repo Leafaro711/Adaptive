@@ -611,3 +611,20 @@ a{
     line-height: 21px;
     color: rgba(0, 0, 0, 0.56)
 }
+
+@media only screen and (max-width: 600px) {
+.order_and_bonus{
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+img{
+    width: 100%;
+}    
+}
