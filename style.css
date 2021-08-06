@@ -660,7 +660,7 @@ h1{
 }
 
 .happy__place-info, .chill__info, .donate__info, .order__info, .school__info{
-    padding: 32px auto;
+    padding: 32px 0;
 }
 
 
@@ -698,6 +698,42 @@ header{
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+}
+
+.chill__info, .summer__info, .donate__info, .happy__place-info, .school__info{
+    width: 100%;
+}
+
+p{
+    padding: 10px;
+}
+
+.guide{
+    padding: 20px;
+}
+
+.li{
+    display: none;
+}
+
+.footer__nav{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__social-links, .license{
+    display: flex;
+    flex-direction: column;  
+}
+
+.social-icons{
+    width: 70%;
+}
+
+.license-links{
+    padding: 0;
+    border: none;
+    margin-bottom: 20px;
 }
 
 }
